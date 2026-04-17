@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebook Finanças - Índice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0b2b3d 0%, #1a4a6f 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0f3b5a 0%, #1a4a6f 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 30px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .autor-box {
+            background: #f0f4f8;
+            padding: 20px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .autor-box h3 {
+            color: #1a4a6f;
+            margin-bottom: 10px;
+        }
+
+        .dias-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .card {
+            background: #f8f9fc;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #e0e4e8;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .card .numero {
+            font-size: 48px;
+            font-weight: bold;
+            color: #f7b32b;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #1a4a6f;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #1a4a6f;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0f3b5a;
+        }
+
+        .btn-extra {
+            background: #f7b32b;
+            color: #1a2a3a;
+        }
+
+        .btn-extra:hover {
+            background: #e09d10;
+        }
+
+        .footer {
+            background: #0b2b3d;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 14px;
+        }
+
+        hr {
+            margin: 30px 0;
+            border: none;
+            height: 1px;
+            background: #ddd;
+        }
+
+        @media (max-width: 700px) {
+            .content {
+                padding: 25px;
+            }
+            .header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>📘 Como organizar as finanças da sua empresa em 7 dias</h1>
+        <p>O método simples para sair do caos financeiro e começar a ter lucro de verdade</p>
+    </div>
+
+    <div class="content">
+        <div class="autor-box">
+            <h3>👩‍💼 Por: Ana Carolina Silva</h3>
+            <p>Especialista em Finanças para Pequenos Negócios</p>
+            <p style="font-size: 14px; margin-top: 10px;">📧 ana@financasempresarial.com | 📱 @anafinancas</p>
+        </div>
+
+        <h2>📚 Conteúdo completo</h2>
+        <p>Clique em qualquer dia abaixo para acessar o conteúdo detalhado e gerar o PDF individual.</p>
+
+        <div class="dias-grid">
+            <div class="card">
+                <div class="numero">Dia 1</div>
+                <h3>🔍 Entenda o caos</h3>
+                <p>Raio-X financeiro completo da sua empresa</p>
+                <a href="dia1.html" class="btn" target="_blank">📖 Ler e gerar PDF</a>
+            </div>
+
+            <div class="card">
+                <div class="numero">Dia 2</div>
+                <h3>🔪 Separe o que mata</h3>
+                <p>PF x PJ, pró-labore e organização inicial</p>
+                <a href="dia2.html" class="btn" target="_blank">📖 Ler e gerar PDF</a>
+            </div>
+
+            <div class="card">
+                <div class="numero">Dia 3</div>
+                <h3>📊 Crie seu controle</h3>
+                <p>Planilha e sistema financeiro</p>
+                <a href="dia3.html" class="btn" target="_blank">📖 Ler e gerar PDF</a>
+            </div>
+
+            <div class="card">
+                <div class="numero">Dia 4</div>
+                <h3>💧 Domine o fluxo de caixa</h3>
+                <p>Nunca mais fique sem dinheiro</p>
+                <a href="dia4.html" class="btn" target="_blank">📖 Ler e gerar PDF</a>
+            </div>
+
+            <div class="card">
+                <div class="numero">Dia 5</div>
+                <h3>💰 Descubra seu lucro real</h3>
+                <p>Faturamento não é lucro</p>
+                <a href="dia5.html" class="btn" target="_blank">📖 Ler e gerar PDF</a>
+            </div>
+
+            <div class="card">
+                <div class="numero">Dia 6</div>
+                <h3>✂️ Corte vazamentos</h3>
+                <p>Pare de perder dinheiro</p>
+                <a href="dia6.html" class="btn" target="_blank">📖 Ler e gerar PDF</a>
+            </div>
+
+            <div class="card">
+                <div class="numero">Dia 7</div>
+                <h3>✅ Organização definitiva</h3>
+                <p>Crie sua rotina financeira</p>
+                <a href="dia7.html" class="btn" target="_blank">📖 Ler e gerar PDF</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>📈 Capítulos extras</h2>
+        <div style="display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0;">
+            <a href="extra1.html" class="btn btn-extra" target="_blank">💰 Precificação inteligente</a>
+            <a href="extra2.html" class="btn btn-extra" target="_blank">🚀 Como fazer sua empresa crescer</a>
+            <a href="planilha.html" class="btn" target="_blank">📎 Baixar planilha financeira</a>
+            <a href="conclusao.html" class="btn" target="_blank">🎯 Conclusão final</a>
+        </div>
+
+        <hr>
+
+        <div style="background: #e6f4ea; padding: 20px; border-radius: 16px; text-align: center;">
+            <strong>📌 Como gerar o PDF:</strong><br>
+            Abra qualquer página → pressione <strong>Ctrl + P</strong> (ou Cmd + P no Mac) → escolha "Salvar como PDF"
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 - Ebook Finanças em 7 Dias</p>
+        <p>Distribuição gratuita para empreendedores</p>
+    </div>
+</div>
+</body>
+</html>

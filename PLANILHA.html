@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilha Financeira | Ebook Finanças</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0b2b3d, #1a4a6f); min-height: 100vh; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; }
+        .header { background: linear-gradient(135deg, #0f3b5a, #1a4a6f); color: white; text-align: center; padding: 50px 30px; }
+        .header h1 { font-size: 38px; margin-bottom: 10px; }
+        .content { padding: 50px; text-align: center; }
+        .planilha-preview { background: #f0f4f8; border-radius: 16px; padding: 30px; margin: 30px 0; text-align: left; overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; font-size: 12px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background: #1a4a6f; color: white; }
+        .btn-grande { display: inline-block; background: #1a4a6f; color: white; padding: 18px 40px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 18px; margin: 20px 0; transition: 0.3s; }
+        .btn-grande:hover { background: #0f3b5a; transform: scale(1.02); }
+        .btn-secundario { display: inline-block; background: #f7b32b; color: #1a2a3a; padding: 12px 25px; text-decoration: none; border-radius: 40px; font-weight: bold; margin: 10px; }
+        .instrucoes { background: #e6f4ea; padding: 25px; border-radius: 16px; margin: 30px 0; text-align: left; }
+        .instrucoes li { margin-bottom: 10px; margin-left: 20px; }
+        .btn-voltar { display: inline-block; background: #555; color: white; padding: 10px 20px; text-decoration: none; border-radius: 30px; margin-top: 20px; font-size: 14px; }
+        .footer { background: #0b2b3d; color: white; text-align: center; padding: 30px; font-size: 14px; }
+        h2 { color: #1a4a6f; margin: 20px 0; }
+        @media (max-width: 700px) { .content { padding: 30px 20px; } .header h1 { font-size: 28px; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>📊 Planilha Financeira</h1>
+        <p>Seu controle financeiro em um só lugar</p>
+    </div>
+
+    <div class="content">
+        <a href="index.html" class="btn-voltar">← Voltar para o índice</a>
+
+        <h2>✅ Baixe sua planilha agora</h2>
+        <a href="https://docs.google.com/spreadsheets/d/1Xw9ZvHk3Qr7LmNp2YtG5fJk8Hs6DaBcE4/edit?usp=sharing" class="btn-grande" target="_blank">📎 ACESSAR PLANILHA GRATUITA</a>
+        <p style="color: #666;">Clique no botão acima e faça uma cópia para seu Google Drive</p>
+
+        <div class="planilha-preview">
+            <h3 style="margin-bottom: 15px;">Preview da planilha:</h3>
+            <table>
+                <tr><th>Data</th><th>Descrição</th><th>Categoria</th><th>Valor</th><th>Entrada/Saída</th><th>Saldo</th></tr>
+                <tr><td>01/04</td><td>Venda Cliente A</th><th>Vendas</th><th>R$ 500</th><th>Entrada</th><th>R$ 500</th></tr>
+                <tr><td>01/04</th><th>Aluguel</th><th>Fixo</th><th>R$ 1.200</th><th>Saída</th><th>R$ -700</th></tr>
+                <tr><td>02/04</th><th>Fornecedor</th><th>Variável</th><th>R$ 800</th><th>Saída</th><th>R$ -1.500</th></tr>
+                <tr><td>03/04</th><th>Venda Cliente B</th><th>Vendas</th><th>R$ 1.200</th><th>Entrada</th><th>R$ -300</th></tr>
+            </table>
+        </div>
+
+        <div class="instrucoes">
+            <h3>📖 Como usar a planilha:</h3>
+            <ul>
+                <li>1. Clique no botão "ACESSAR PLANILHA GRATUITA"</li>
+                <li>2. Faça login na sua conta do Google (gratuito)</li>
+                <li>3. Vá em Arquivo > Fazer uma cópia</li>
+                <li>4. Renomeie para o nome da sua empresa</li>
+                <li>5. Comece a preencher com os dados do Dia 1</li>
+            </ul>
+        </div>
+
+        <div class="instrucoes" style="background: #fff8e7;">
+            <h3>📋 Abas da planilha:</h3>
+            <ul>
+                <li><strong>Controle diário</strong> → Registro de todas as movimentações</li>
+                <li><strong>Despesas fixas</strong> → Aluguel, internet, assinaturas</li>
+                <li><strong>Fluxo de caixa</strong> → Projeção dos próximos 30 dias</li>
+                <li><strong>Indicadores</strong> → Faturamento, lucro, margem</li>
+                <li><strong>Metas</strong> → Acompanhamento dos objetivos</li>
+            </ul>
+        </div>
+
+        <p style="margin-top: 30px;">💡 <strong>Dica:</strong> A planilha já vem com fórmulas automáticas. Você só precisa preencher os dados!</p>
+
+        <div style="margin-top: 30px;">
+            <a href="dia3.html" class="btn-secundario">← Voltar para Dia 3</a>
+            <a href="index.html" class="btn-secundario">📚 Índice completo</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Ebook - Como organizar as finanças da sua empresa em 7 dias</p>
+        <p>Planilha Financeira | © 2025</p>
+    </div>
+</div>
+</body>
+</html>
